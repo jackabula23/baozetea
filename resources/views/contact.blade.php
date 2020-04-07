@@ -36,7 +36,7 @@
 					</label>
 				</span>
 				<textarea name="Message" placeholder="請留言..." required=""></textarea>
-				<input type="submit" value="Submit">
+				<input type="submit" value="確認送出">
 			</form>
 		</div>
 		<div class="clearfix"> </div>
