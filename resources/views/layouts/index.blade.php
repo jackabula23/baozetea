@@ -20,6 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- font-awesome icons -->
 <link href="{{asset('resources/assets/css/font-awesome.css')}}" rel="stylesheet"> 
 <!-- //font-awesome icons -->
+<link rel="icon" href="{{asset('resources/assets/images/logoB.png')}}">
 <!-- js -->
 <script src="{{asset('resources/assets/js/jquery-1.11.1.min.js')}}"></script>
 <!-- //js -->
@@ -41,38 +42,53 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- header -->
 	<div class="agileits_header">
 		<div class="container">
-			<div class="w3l_offers">
+			{{-- <div class="w3l_offers">
 				<p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products.html">SHOP NOW</a></p>
+			</div> --}}
+			<div class="product_list_header">  
+				<form action="#" method="post" class="last"> 
+					<input type="hidden" name="cmd" value="_cart">
+					<input type="hidden" name="display" value="1">
+					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+				</form>  
 			</div>
 			<div class="agile-login">
 				<ul>
-					<li><a href="registered.html"> Create Account </a></li>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="contact.html">Help</a></li>
-					
+				<!-- Authentication Links -->
+                    @guest
+                        <li><a href="{{ route('login') }}">登入</a></li>
+                        <li><a href="{{ route('register') }}">註冊</a></li>
+                    @else
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
+                                HI&nbsp;{{ Auth::user()->name }}
+                            </a>
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                             document.getElementById('logout-form').submit();">
+                                    登出
+                                </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                    {{ csrf_field() }}
+                                </form>
+                            </li>
+                        </li>
+                    @endguest		
 				</ul>
-			</div>
-			<div class="product_list_header">  
-					<form action="#" method="post" class="last"> 
-						<input type="hidden" name="cmd" value="_cart">
-						<input type="hidden" name="display" value="1">
-						<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-					</form>  
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-
 	<div class="logo_products">
 		<div class="container">
 		<div class="w3ls_logo_products_left1">
 				<ul class="phone_email">
-					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>
-					
+					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+0123) 234 567</li>					
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<a href="{{url('index')}}"><img src="{{asset('resources/assets/images/logo.png')}}" alt=""></a>
+				<a href="{{url('index')}}"><img src="{{asset('resources/assets/images/baoze.png')}}" alt=""></a>
 			</div>
 		<div class="w3l_search">
 			<form action="#" method="post">
@@ -82,8 +98,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</button>
 				<div class="clearfix"></div>
 			</form>
-		</div>
-			
+		</div>			
 			<div class="clearfix"> </div>
 		</div>
 	</div>
@@ -103,7 +118,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div> 
 							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 								<ul class="nav navbar-nav">
-									<li class="active"><a href="{{url('index')}}" class="act">Home</a></li>	
+									<li class="active"><a href="{{url('index')}}" class="act">首頁</a></li>	
 									<!-- Mega Menu -->
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Groceries<b class="caret"></b></a>
@@ -119,8 +134,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														<li><a href="groceries.html"> Mukhwas </a></li>
 														<li><a href="groceries.html">Rice & Rice Products</a></li>
 													</ul>
-												</div>	
-												
+												</div>													
 											</div>
 										</ul>
 									</li>
@@ -138,9 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														<li><a href="household.html"> Mops </a></li>
 														<li><a href="household.html">Kitchenware</a></li>
 													</ul>
-												</div>
-												
-												
+												</div>																								
 											</div>
 										</ul>
 									</li>
@@ -158,8 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														<li><a href="personalcare.html"> Baby Powder</a></li>
 														<li><a href="personalcare.html">Diapers & Wipes</a></li>
 													</ul>
-												</div>
-												
+												</div>												
 											</div>
 										</ul>
 									</li>
@@ -177,9 +188,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 														<li><a href="packagedfoods.html"> Canned Food </a></li>
 														<li><a href="packagedfoods.html">Chocolates & Sweets</a></li>
 													</ul>
-												</div>
-												
-											
+												</div>											
 											</div>
 										</ul>
 									</li>
@@ -204,7 +213,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</li>
 									<li><a href="gourmet.html">Gourmet</a></li>
 									<li><a href="offers.html">Offers</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="{{'contact'}}">Contact</a></li>
 								</ul>
 							</div>
 							</nav>

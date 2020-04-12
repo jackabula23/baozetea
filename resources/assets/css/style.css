@@ -130,8 +130,8 @@ button.btn.btn-default.search:hover {
 	
 }
 .agile-login {
-    float: left;
-    width: 40%;
+    float: right;
+    width: 11%;
     text-align: center;
     padding: 9px 0;
 }
@@ -2525,6 +2525,7 @@ h3.w3_agile_header, h2.w3_agile_header {
 }
 .agile-login {
     padding: 6px 0;
+    width: auto;
 }
 .w3view-cart {
     height: 36px;
@@ -2798,7 +2799,7 @@ ul.faq {
 	max-height: 165px !important;
 }
 .agile-login {
-    width: 37%;
+    width: 20%;
 }
 .w3l_offers {
     width: 56%;
@@ -2862,7 +2863,7 @@ ul.faq {
     text-align: center;
 }
 .agile-login {
-    width: 38%;
+    width: 20%;
 }
 .about .grid-top h4 {
     font-size: 1.3em;
@@ -2900,7 +2901,7 @@ ul.faq {
 	max-height: 210px !important;
 }
 .agile-login {
-    width: 40%;
+    width: 20%;
 }
 .value-minus, .value-plus {
     height: 22px;
@@ -2920,7 +2921,7 @@ ul.faq {
     width: 64%;
 }
 .agile-login {
-    width: 43%;
+    width: 20%;
 }
 .w3l_search input[type="search"] {
     width: 91%;
@@ -2981,7 +2982,7 @@ td.invert-image a img {
     width: 90%;
 }
 .agile-login {
-    width: 50%;
+    width: 25%;
 }
 .top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-w3agile h3, .brands h3 {
     font-size: 1.7em;
@@ -3049,7 +3050,7 @@ h3.w3_agile_header, h2.w3_agile_header {
 	left: 55% !important;
 }
 .agile-login {
-    width: 61%;
+    width: 30%;
 }
 .w3l_search input[type="search"] {
     width: 87%;
@@ -3140,7 +3141,7 @@ span.minicart-price {
     font-size: 12px;
 }
 .agile-login {
-    width: 67%;
+    width: 30%;
 }
 .w3l_search input[type="search"] {
     width: 86%;
@@ -3202,7 +3203,7 @@ span.minicart-price {
 	font-size: 13px !important;
 }
 .agile-login {
-    width: 79%;
+    width: 35%;
 }
 .w3l_offers p {
     font-size: 10px;

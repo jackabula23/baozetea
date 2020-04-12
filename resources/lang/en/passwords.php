@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'password' => 'Passwords must be at least six characters and match the confirmation.',
-    'reset' => 'Your password has been reset!',
-    'sent' => 'We have e-mailed your password reset link!',
-    'token' => 'This password reset token is invalid.',
-    'user' => "We can't find a user with that e-mail address.",
+    'password' => '密碼必須至少包含六個字符，並且與確認字符相符。',
+    'reset' => '您的密碼已重置！',
+    'sent' => '信件已成功寄出！',
+    'token' => '此密碼重置令牌無效。',
+    'user' => '電子郵件輸入錯誤或者未註冊！',
 
 ];

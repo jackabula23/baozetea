@@ -4,21 +4,21 @@
     	<!-- main-slider -->
 		<ul id="demo1">
 			<li>
-				<img src="{{asset('resources/assets/images/11.jpg')}}" alt="" />
+				<img src="{{asset('resources/assets/images/banner1.png')}}" alt="" />
 				<!--Slider Description example-->
 				<div class="slide-desc">
 					<h3>寶澤的使命保原味.擇好茶</h3>
 				</div>
 			</li>
 			<li>
-				<img src="{{asset('resources/assets/images/22.jpg')}}" alt="" />
+				<img src="{{asset('resources/assets/images/banner2.png')}}" alt="" />
 				  <div class="slide-desc">
 					<h3>寶澤茶品好茶、好禮、好品味</h3>
 				</div>
 			</li>
 			
 			<li>
-				<img src="{{asset('resources/assets/images/44.jpg')}}" alt="" />
+				<img src="{{asset('resources/assets/images/banner3.png')}}" alt="" />
 				<div class="slide-desc">
 					<h3>精緻經典，高山品質50年製茶經驗沉淀之作</h3>
 				</div>
