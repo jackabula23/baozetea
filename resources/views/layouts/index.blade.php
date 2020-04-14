@@ -213,7 +213,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</li>
 									<li><a href="gourmet.html">Gourmet</a></li>
 									<li><a href="offers.html">Offers</a></li>
-									<li><a href="{{'contact'}}">Contact</a></li>
+									<li><a href="{{url('contact')}}">Contact</a></li>
 								</ul>
 							</div>
 							</nav>
@@ -258,8 +258,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul class="info"> 
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Store</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="checkout.html">My Cart</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="login.html">Login</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="registered.html">Create Account</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('login')}}">登入</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('register')}}">註冊</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>

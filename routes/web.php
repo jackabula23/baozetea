@@ -20,9 +20,6 @@ Route::any('about', 'indexController@about');
 Route::any('contact', 'indexController@contact');
 Route::any('faq', 'indexController@faq');
 
-Route::get('admin/login', 'Admin\LoginController@login');
-Route::get('admin/register', 'Admin\RegisterController@register');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
