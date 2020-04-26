@@ -20,6 +20,10 @@ Route::any('about', 'indexController@about');
 Route::any('contact', 'indexController@contact');
 Route::any('faq', 'indexController@faq');
 
+Route::any('product', 'productController@product');
+Route::any('single', 'productController@single');
+Route::any('checkout', 'productController@checkout');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

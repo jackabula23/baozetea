@@ -53,7 +53,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/TaiwanMountainTea150g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/TaiwanMountainTea150g.png')}}" /></a>		
 															<p>高山茶150g</p>
 															<h4>$20.99 <span>$35.00</span></h4>
 														</div>
@@ -89,7 +89,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/FrozenTopOolongTea150g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/FrozenTopOolongTea150g.png')}}" /></a>		
 															<p>凍頂烏龍茶150g</p>
 															<h4>$20.99 <span>$35.00</span></h4>
 														</div>
@@ -125,7 +125,7 @@
 												<figure>
 													<div class="snipcart-item block">
 														<div class="snipcart-thumb">
-															<a href="products.html"><img src="{{asset('resources/assets/images/LishanAlpineOolong150g.png')}}" alt=" " class="img-responsive" /></a>
+															<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/LishanAlpineOolong150g.png')}}" alt=" " class="img-responsive" /></a>
 															<p>梨山高山烏龍150g</p>
 															<h4>$40.99 <span>$65.00</span></h4>
 														</div>
@@ -164,7 +164,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/OldTea75g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/OldTea75g.png')}}" /></a>		
 															<p>陳年老茶75g</p>
 															<h4>$35.99 <span>$55.00</span></h4>
 														</div>
@@ -200,7 +200,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/AlpineOolongTea150g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/AlpineOolongTea150g.png')}}" /></a>		
 															<p>台灣高山烏龍茶150g</p>
 															<h4>$30.99 <span>$45.00</span></h4>
 														</div>
@@ -239,7 +239,7 @@
 												<figure>
 													<div class="snipcart-item block">
 														<div class="snipcart-thumb">
-															<a href="products.html"><img src="{{asset('resources/assets/images/AlishanJinxuan150g.png')}}" alt=" " class="img-responsive" /></a>
+															<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/AlishanJinxuan150g.png')}}" alt=" " class="img-responsive" /></a>
 															<p>阿里山金萱茶</p>
 															<h4>$80.99 <span>$105.00</span></h4>
 														</div>
@@ -284,7 +284,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/ShanlinxiAlpineOolongTea100g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/ShanlinxiAlpineOolongTea100g.png')}}" /></a>		
 															<p>杉林溪高山烏龍茶</p>
 															<h4>$35.99 <span>$55.00</span></h4>
 														</div>
@@ -320,7 +320,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/AlishanAlpineTea.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/AlishanAlpineTea.png')}}" /></a>		
 															<p>阿里山高山茶</p>
 															<h4>$30.99 <span>$45.00</span></h4>
 														</div>
@@ -359,7 +359,7 @@
 												<figure>
 													<div class="snipcart-item block">
 														<div class="snipcart-thumb">
-															<a href="products.html"><img src="{{asset('resources/assets/images/【寶澤茶品】寶澤參號-四季春150g.png')}}" alt=" " class="img-responsive" /></a>
+															<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/【寶澤茶品】寶澤參號-四季春150g.png')}}" alt=" " class="img-responsive" /></a>
 															<p>寶澤參號-四季春150g</p>
 															<h4>$80.99 <span>$105.00</span></h4>
 														</div>
@@ -398,7 +398,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】寶澤壹號-高山烏龍100g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】寶澤壹號-高山烏龍100g.png')}}" /></a>		
 															<p>寶澤壹號-高山烏龍</p>
 															<h4>$20.99 <span>$35.00</span></h4>
 														</div>
@@ -434,7 +434,7 @@
 												<figure>
 													<div class="snipcart-item block" >
 														<div class="snipcart-thumb">
-															<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】寶澤貳號-金萱150g.png')}}" /></a>		
+															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】寶澤貳號-金萱150g.png')}}" /></a>		
 															<p>寶澤貳號-金萱150g</p>
 															<h4>$20.99 <span>$35.00</span></h4>
 														</div>
@@ -470,7 +470,7 @@
 												<figure>
 													<div class="snipcart-item block">
 														<div class="snipcart-thumb">
-															<a href="products.html"><img src="{{asset('resources/assets/images/【寶澤茶品】台灣高山茶75g.png')}}" alt=" " class="img-responsive" /></a>
+															<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/【寶澤茶品】台灣高山茶75g.png')}}" alt=" " class="img-responsive" /></a>
 															<p>台灣高山茶75g</p>
 															<h4>$40.99 <span>$65.00</span></h4>
 														</div>
@@ -520,7 +520,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】台灣茗藏-阿里山禮盒300g.png')}}"></a>		
+												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】台灣茗藏-阿里山禮盒300g.png')}}"></a>		
 												<p>台灣茗藏-阿里山禮盒300g</p>
 												<h4>$35.99 <span>$55.00</span></h4>
 											</div>
@@ -556,7 +556,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/臺灣印記-阿里山禮盒.png')}}"></a>		
+												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/臺灣印記-阿里山禮盒.png')}}"></a>		
 												<p>臺灣印記-阿里山禮盒</p>
 												<h4>$30.99 <span>$45.00</span></h4>
 											</div>
@@ -595,7 +595,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="products.html"><img src="{{asset('resources/assets/images/寶澤經典茶葉禮盒.png')}}" alt=" " class="img-responsive"></a>
+												<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/寶澤經典茶葉禮盒.png')}}" alt=" " class="img-responsive"></a>
 												<p>寶澤經典茶葉禮盒</p>
 												<h4>$80.99 <span>$105.00</span></h4>
 											</div>
@@ -631,7 +631,7 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/典藏-台灣之美高山茶禮盒.png')}}"></a>		
+												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/典藏-台灣之美高山茶禮盒.png')}}"></a>		
 												<p>典藏-台灣之美高山茶禮盒</p>
 												<h4>$35.99 <span>$55.00</span></h4>
 											</div>

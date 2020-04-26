@@ -269,7 +269,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="footer-copy">
 			
 			<div class="container">
-				<p>© 2017 寶澤茶品. All rights reserved | Design by <a href="#">Jack_yu</a></p>
+				<p>© 2017 寶澤茶品. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 			</div>
 		</div>
 		
