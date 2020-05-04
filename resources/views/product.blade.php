@@ -14,7 +14,7 @@
 <!--- products --->
 <div class="products">
 	<div class="container">
-		<div class="col-md-4 products-left">
+		{{-- <div class="col-md-4 products-left">
 			<div class="categories">
 				<h2>Categories</h2>
 				<ul class="cate">
@@ -51,10 +51,10 @@
 						</ul>
 				</ul>
 			</div>																																												
-		</div>
-		<div class="col-md-8 products-right">
+		</div> --}}
+		<div class="col-md-12 products-right">
 			<div class="products-right-grid">
-				<div class="products-right-grids">
+				{{-- <div class="products-right-grids">
 					<div class="sorting">
 						<select id="country" onchange="change_country(this.value)" class="frm-field required sect">
 							<option value="null"><i class="fa fa-arrow-right" aria-hidden="true"></i>Default sorting</option>
@@ -72,7 +72,7 @@
 						</select>
 					</div>
 					<div class="clearfix"> </div>
-				</div>
+				</div> --}}
 			</div>
 			<div class="agile_top_brands_grids">
 				<div class="col-md-4 top_brand_left">
