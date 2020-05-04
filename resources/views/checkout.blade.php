@@ -6,7 +6,7 @@
 	<div class="container">
 		<ol class="breadcrumb breadcrumb1">
 			<li><a href="{{url('index')}}"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-			<li class="active">Checkout Page</li>
+			<li class="active">結帳</li>
 		</ol>
 	</div>
 </div>
@@ -14,7 +14,7 @@
 <!-- checkout -->
 <div class="checkout">
 	<div class="container">
-		<h2>Your shopping cart contains: <span>3 Products</span></h2>
+		<h2>您的購物車總共有<span>三件商品</span></h2>
 		<div class="checkout-right">
 			<table class="timetable_sub">
 				<thead>
@@ -29,7 +29,7 @@
 				</thead>
 				<tr class="rem1">
 					<td class="invert">1</td>
-					<td class="invert-image"><a href="single.html"><img src="{{asset('resources/assets/images/1.png')}}" alt=" " class="img-responsive" /></a></td>
+					<td class="invert-image"><a href="{{url('single')}}"><img src="{{asset('resources/assets/images/TaiwanMountainTea150g.png')}}" alt=" " class="img-responsive" /></a></td>
 					<td class="invert">
 						 <div class="quantity"> 
 							<div class="quantity-select">                           
@@ -39,7 +39,7 @@
 							</div>
 						</div>
 					</td>
-					<td class="invert">Tata Salt</td>
+					<td class="invert">高山茶150g</td>
 					
 					<td class="invert">$290.00</td>
 					<td class="invert">
@@ -58,7 +58,7 @@
 				</tr>
 				<tr class="rem2">
 					<td class="invert">2</td>
-					<td class="invert-image"><a href="single.html"><img src="{{asset('resources/assets/images/2.png')}}" alt=" " class="img-responsive" /></a></td>
+					<td class="invert-image"><a href="{{url('single')}}"><img src="{{asset('resources/assets/images/FrozenTopOolongTea150g.png')}}" alt=" " class="img-responsive" /></a></td>
 					<td class="invert">
 						 <div class="quantity"> 
 							<div class="quantity-select">                           
@@ -68,7 +68,7 @@
 							</div>
 						</div>
 					</td>
-					<td class="invert">Fortune oil</td>
+					<td class="invert">凍頂烏龍茶150g</td>
 				
 					<td class="invert">$250.00</td>
 					<td class="invert">
@@ -87,7 +87,7 @@
 				</tr>
 				<tr class="rem3">
 					<td class="invert">3</td>
-					<td class="invert-image"><a href="single.html"><img src="{{asset('resources/assets/images/3.png')}}" alt=" " class="img-responsive" /></a></td>
+					<td class="invert-image"><a href="{{url('single')}}"><img src="{{asset('resources/assets/images/LishanAlpineOolong150g.png')}}" alt=" " class="img-responsive" /></a></td>
 					<td class="invert">
 						 <div class="quantity"> 
 							<div class="quantity-select">                           
@@ -97,9 +97,9 @@
 							</div>
 						</div>
 					</td>
-					<td class="invert">Aashirvaad atta</td>
+					<td class="invert">梨山高山烏龍150g</td>
 					
-					<td class="invert">$15.00</td>
+					<td class="invert">$150.00</td>
 					<td class="invert">
 						<div class="rem">
 							<div class="close3"> </div>
@@ -132,15 +132,15 @@
 			<div class="checkout-left-basket">
 				<h4>Continue to basket</h4>
 				<ul>
-					<li>Product1 <i>-</i> <span>$15.00 </span></li>
-					<li>Product2 <i>-</i> <span>$25.00 </span></li>
-					<li>Product3 <i>-</i> <span>$29.00 </span></li>
+					<li>高山茶150g <i>-</i> <span>$290.00</span></li>
+					<li>凍頂烏龍茶150g <i>-</i> <span>$250.00</span></li>
+					<li>梨山高山烏龍150g <i>-</i> <span>$150.00</span></li>
 					<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
-					<li>Total <i>-</i> <span>$84.00</span></li>
+					<li>總計 <i>-</i> <span>$84.00</span></li>
 				</ul>
 			</div>
 			<div class="checkout-right-basket">
-				<a href="single.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>Continue Shopping</a>
+				<a href="single.html"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>繼續購物</a>
 			</div>
 			<div class="clearfix"> </div>
 		</div>

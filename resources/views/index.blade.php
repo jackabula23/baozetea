@@ -55,7 +55,7 @@
 														<div class="snipcart-thumb">
 															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/TaiwanMountainTea150g.png')}}" /></a>		
 															<p>高山茶150g</p>
-															<h4>$20.99 <span>$35.00</span></h4>
+															<h4>$250 <span>$300</span></h4>
 														</div>
 														<div class="snipcart-details top_brand_home_details">
 															<form action="#" method="post">
@@ -63,10 +63,10 @@
 																	<input type="hidden" name="cmd" value="_cart" />
 																	<input type="hidden" name="add" value="1" />
 																	<input type="hidden" name="business" value=" " />
-																	<input type="hidden" name="item_name" value="Fortune Sunflower Oil" />
-																	<input type="hidden" name="amount" value="20.99" />
-																	<input type="hidden" name="discount_amount" value="1.00" />
-																	<input type="hidden" name="currency_code" value="USD" />
+																	<input type="hidden" name="item_name" value="高山茶150g" />
+																	<input type="hidden" name="amount" value="250" />
+																	{{-- <input type="hidden" name="discount_amount" value="1.00" /> --}}
+																	<input type="hidden" name="currency_code" value="TWD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
 																	<input type="submit" name="submit" value="Add to cart" class="button" />
@@ -91,7 +91,7 @@
 														<div class="snipcart-thumb">
 															<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/FrozenTopOolongTea150g.png')}}" /></a>		
 															<p>凍頂烏龍茶150g</p>
-															<h4>$20.99 <span>$35.00</span></h4>
+															<h4>$200 <span>$350</span></h4>
 														</div>
 														<div class="snipcart-details top_brand_home_details">
 															<form action="#" method="post">
@@ -99,10 +99,10 @@
 																	<input type="hidden" name="cmd" value="_cart" />
 																	<input type="hidden" name="add" value="1" />
 																	<input type="hidden" name="business" value=" " />
-																	<input type="hidden" name="item_name" value="basmati rise" />
-																	<input type="hidden" name="amount" value="20.99" />
-																	<input type="hidden" name="discount_amount" value="1.00" />
-																	<input type="hidden" name="currency_code" value="USD" />
+																	<input type="hidden" name="item_name" value="凍頂烏龍茶150g" />
+																	<input type="hidden" name="amount" value="200" />
+																	{{-- <input type="hidden" name="discount_amount" value="1.00" /> --}}
+																	<input type="hidden" name="currency_code" value="TWD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
 																	<input type="submit" name="submit" value="Add to cart" class="button" />
@@ -127,7 +127,7 @@
 														<div class="snipcart-thumb">
 															<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/LishanAlpineOolong150g.png')}}" alt=" " class="img-responsive" /></a>
 															<p>梨山高山烏龍150g</p>
-															<h4>$40.99 <span>$65.00</span></h4>
+															<h4>$400 <span>$650</span></h4>
 														</div>
 														<div class="snipcart-details top_brand_home_details">
 															<form action="#" method="post">
@@ -135,10 +135,10 @@
 																	<input type="hidden" name="cmd" value="_cart" />
 																	<input type="hidden" name="add" value="1" />
 																	<input type="hidden" name="business" value=" " />
-																	<input type="hidden" name="item_name" value="Pepsi soft drink" />
-																	<input type="hidden" name="amount" value="40.00" />
-																	<input type="hidden" name="discount_amount" value="1.00" />
-																	<input type="hidden" name="currency_code" value="USD" />
+																	<input type="hidden" name="item_name" value="梨山高山烏龍150g" />
+																	<input type="hidden" name="amount" value="400" />
+																	{{-- <input type="hidden" name="discount_amount" value="1.00" /> --}}
+																	<input type="hidden" name="currency_code" value="TWD" />
 																	<input type="hidden" name="return" value=" " />
 																	<input type="hidden" name="cancel_return" value=" " />
 																	<input type="submit" name="submit" value="Add to cart" class="button" />
@@ -522,7 +522,7 @@
 											<div class="snipcart-thumb">
 												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】台灣茗藏-阿里山禮盒300g.png')}}"></a>		
 												<p>台灣茗藏-阿里山禮盒300g</p>
-												<h4>$35.99 <span>$55.00</span></h4>
+												<h4>$350 <span>$550</span></h4>
 											</div>
 											<div class="snipcart-details top_brand_home_details">
 												<form action="#" method="post">
@@ -558,7 +558,7 @@
 											<div class="snipcart-thumb">
 												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/臺灣印記-阿里山禮盒.png')}}"></a>		
 												<p>臺灣印記-阿里山禮盒</p>
-												<h4>$30.99 <span>$45.00</span></h4>
+												<h4>$390 <span>$450</span></h4>
 											</div>
 											<div class="snipcart-details top_brand_home_details">
 												<form action="#" method="post">
@@ -597,7 +597,7 @@
 											<div class="snipcart-thumb">
 												<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/寶澤經典茶葉禮盒.png')}}" alt=" " class="img-responsive"></a>
 												<p>寶澤經典茶葉禮盒</p>
-												<h4>$80.99 <span>$105.00</span></h4>
+												<h4>$890 <span>$1050</span></h4>
 											</div>
 											<div class="snipcart-details top_brand_home_details">
 												<form action="#" method="post">
@@ -633,7 +633,7 @@
 											<div class="snipcart-thumb">
 												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/典藏-台灣之美高山茶禮盒.png')}}"></a>		
 												<p>典藏-台灣之美高山茶禮盒</p>
-												<h4>$35.99 <span>$55.00</span></h4>
+												<h4>$350 <span>$550</span></h4>
 											</div>
 											<div class="snipcart-details top_brand_home_details">
 												<form action="#" method="post">

@@ -6,7 +6,7 @@
 	<div class="container">
 		<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
 			<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-			<li class="active">Singlepage</li>
+			<li class="active">產品</li>
 		</ol>
 	</div>
 </div>
@@ -16,11 +16,11 @@
 		<div class="agileinfo_single">
 			
 			<div class="col-md-4 agileinfo_single_left">
-				<img id="example" src="{{asset('resources/assets/images/si1.jpg')}}" alt=" " class="img-responsive">
+				<img id="example" src="{{asset('resources/assets/images/TaiwanMountainTea150gsingle.png')}}" alt=" " class="img-responsive">
 			</div>
 			<div class="col-md-8 agileinfo_single_right">
-			<h2>KHARAMORRA Khakra - Hariyali</h2>
-				<div class="rating1">
+			<h2>高山茶150g</h2>
+				{{-- <div class="rating1">
 					<span class="starRating">
 						<input id="rating5" type="radio" name="rating" value="5">
 						<label for="rating5">5</label>
@@ -33,17 +33,14 @@
 						<input id="rating1" type="radio" name="rating" value="1">
 						<label for="rating1">1</label>
 					</span>
-				</div>
+				</div> --}}
 				<div class="w3agile_description">
-					<h4>Description :</h4>
-					<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-						officia deserunt mollit anim id est laborum.Duis aute irure dolor in 
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-						pariatur.</p>
+					<h4>簡介:</h4>
+					<p>採自台灣高山原始森林台地,終年雲霧繚繞,土壤有機質含量豐富,在氣候.土壤等天然環境均佳的條件下,所產製成的茶葉,茶湯清澈透明,質味甘美,喉韻絕佳,堪稱「茶中極品」。</p>
 				</div>
 				<div class="snipcart-item block">
 					<div class="snipcart-thumb agileinfo_single_right_snipcart">
-						<h4 class="m-sing">$21.00 <span>$25.00</span></h4>
+						<h4 class="m-sing">$250 <span>$300</span></h4>
 					</div>
 					<div class="snipcart-details agileinfo_single_right_details">
 						<form action="#" method="post">
@@ -82,16 +79,16 @@
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/14.png')}}"></a>		
-											<p>Fried-gram</p>
-											<div class="stars">
+											<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】台灣茗藏-阿里山禮盒300g.png')}}"></a>		
+											<p>台灣茗藏-阿里山禮盒300g</p>
+											{{-- <div class="stars">
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star gray-star" aria-hidden="true"></i>
-											</div>
-												<h4>$35.99 <span>$55.00</span></h4>
+											</div> --}}
+												<h4>$350 <span>$550</span></h4>
 										</div>
 										<div class="snipcart-details top_brand_home_details">
 											<form action="#" method="post">
@@ -125,16 +122,16 @@
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/15.png')}}"></a>		
-											<p>Navaratan-dal</p>
-											<div class="stars">
+											<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/臺灣印記-阿里山禮盒.png')}}"></a>		
+											<p>臺灣印記-阿里山禮盒</p>
+											{{-- <div class="stars">
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star gray-star" aria-hidden="true"></i>
-											</div>
-												<h4>$30.99 <span>$45.00</span></h4>
+											</div> --}}
+											<h4>$390 <span>$450</span></h4>
 										</div>
 										<div class="snipcart-details top_brand_home_details">
 											<form action="#" method="post">
@@ -171,16 +168,16 @@
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="products.html"><img src="{{asset('resources/assets/images/16.png')}}" alt=" " class="img-responsive"></a>
-											<p>White-peasmatar</p>
-											<div class="stars">
+											<a href="products.html"><img src="{{asset('resources/assets/images/寶澤經典茶葉禮盒.png')}}" alt=" " class="img-responsive"></a>
+											<p>寶澤經典茶葉禮盒</p>
+											{{-- <div class="stars">
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star gray-star" aria-hidden="true"></i>
-											</div>
-												<h4>$80.99 <span>$105.00</span></h4>
+											</div> --}}
+											<h4>$890 <span>$1050</span></h4>
 										</div>
 										<div class="snipcart-details top_brand_home_details">
 											<form action="#" method="post">
@@ -214,16 +211,16 @@
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/17.png')}}"></a>		
-											<p>Channa-dal</p>
-											<div class="stars">
+											<a href="products.html"><img title=" " alt=" " src="{{asset('resources/assets/images/典藏-台灣之美高山茶禮盒.png')}}"></a>		
+											<p>典藏-台灣之美高山茶禮盒</p>
+											{{-- <div class="stars">
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star blue-star" aria-hidden="true"></i>
 												<i class="fa fa-star gray-star" aria-hidden="true"></i>
-											</div>
-												<h4>$35.99 <span>$55.00</span></h4>
+											</div> --}}
+											<h4>$350 <span>$550</span></h4>
 										</div>
 										<div class="snipcart-details top_brand_home_details">
 											<form action="#" method="post">

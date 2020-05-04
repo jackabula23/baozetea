@@ -256,8 +256,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-3 w3_footer_grid">
 					<h3>個人資訊</h3>
 					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="products.html">Store</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="checkout.html">My Cart</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('product')}}">逛逛去</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('checkout')}}">結帳去</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('login')}}">登入</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('register')}}">註冊</a></li>
 					</ul>
