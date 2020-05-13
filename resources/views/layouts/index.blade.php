@@ -75,7 +75,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             </li>
                         </li>
 					@endguest
-					<li><a href="{{url('/index')}}">前往商店</a></li>
+					<li><a href="{{url('/products')}}">前往商店</a></li>
 					<li><a href="{{url('/cart')}}">購物車
 							<span class="p-2 bg-blue-700 text-white rounded">
 								@if(session()->has('cart'))

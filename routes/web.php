@@ -20,7 +20,7 @@ Route::any('about', 'indexController@about');
 Route::any('contact', 'indexController@contact');
 Route::any('faq', 'indexController@faq');
 
-Route::any('products', 'productsController@products');
+Route::any('products', 'productController@products');
 Route::any('single', 'productController@single');
 Route::any('checkout', 'productController@checkout');
 

@@ -13,7 +13,7 @@ class ProductsController extends CommonController
     public function products()
     {
         $products = Products::all();
-        return view('products',compact('products'));
+        return view('product',compact('products'));
     }
 
     public function getAddToCart(Request $request, $id)
