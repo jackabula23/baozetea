@@ -508,8 +508,9 @@
 <!-- new -->
 	<div class="newproducts-w3agile">
 		<div class="container">
-			<h3>新貨到</h3>
+			<h3>本週精選</h3>
 				<div class="agile_top_brands_grids">
+					@foreach ($books as $book)
 					<div class="col-md-3 top_brand_left-1">
 						<div class="hover14 column">
 							<div class="agile_top_brand_left_grid">
@@ -520,9 +521,10 @@
 									<figure>
 										<div class="snipcart-item block">
 											<div class="snipcart-thumb">
-												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/【寶澤茶品】台灣茗藏-阿里山禮盒300g.png')}}"></a>		
-												<p>台灣茗藏-阿里山禮盒300g</p>
-												<h4>$350 <span>$550</span></h4>
+												<a href="{{url('single')}}"><img title=" " alt=" " src="{{$book->img}}"></a>		
+												<p>{{$book->title}}</p>
+												<h4>${{$book->price}}<span>${{$book->price}}</span></h4>
+												<a href="{{url('/add-to-cart')}}/{{$book->id}}" class="w-full block bg-blue-500 text-white py-4 text-center">立刻購買</a>
 											</div>
 											<div class="snipcart-details top_brand_home_details">
 												<form action="#" method="post">
@@ -546,116 +548,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 top_brand_left-1">
-						<div class="hover14 column">
-							<div class="agile_top_brand_left_grid">
-								<div class="agile_top_brand_left_grid_pos">
-									<img src={{asset('resources/assets/images/offer.png')}} alt=" " class="img-responsive">
-								</div>
-								<div class="agile_top_brand_left_grid1">
-									<figure>
-										<div class="snipcart-item block">
-											<div class="snipcart-thumb">
-												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/臺灣印記-阿里山禮盒.png')}}"></a>		
-												<p>臺灣印記-阿里山禮盒</p>
-												<h4>$390 <span>$450</span></h4>
-											</div>
-											<div class="snipcart-details top_brand_home_details">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart">
-															<input type="hidden" name="add" value="1">
-															<input type="hidden" name="business" value=" ">
-															<input type="hidden" name="item_name" value="basmati rise">
-															<input type="hidden" name="amount" value="30.99">
-															<input type="hidden" name="discount_amount" value="1.00">
-															<input type="hidden" name="currency_code" value="USD">
-															<input type="hidden" name="return" value=" ">
-															<input type="hidden" name="cancel_return" value=" ">
-															<input type="submit" name="submit" value="Add to cart" class="button">
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</figure>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 top_brand_left-1">
-						<div class="hover14 column">
-							<div class="agile_top_brand_left_grid">
-								<div class="agile_top_brand_left_grid_pos">
-									<img src={{asset('resources/assets/images/offer.png')}} alt=" " class="img-responsive">
-								</div>
-								<div class="agile_top_brand_left_grid_pos">
-									<img src={{asset('resources/assets/images/offer.png')}} alt=" " class="img-responsive">
-								</div>
-								<div class="agile_top_brand_left_grid1">
-									<figure>
-										<div class="snipcart-item block">
-											<div class="snipcart-thumb">
-												<a href="{{url('single')}}"><img src="{{asset('resources/assets/images/寶澤經典茶葉禮盒.png')}}" alt=" " class="img-responsive"></a>
-												<p>寶澤經典茶葉禮盒</p>
-												<h4>$890 <span>$1050</span></h4>
-											</div>
-											<div class="snipcart-details top_brand_home_details">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart">
-														<input type="hidden" name="add" value="1">
-														<input type="hidden" name="business" value=" ">
-														<input type="hidden" name="item_name" value="Pepsi soft drink">
-														<input type="hidden" name="amount" value="80.00">
-														<input type="hidden" name="discount_amount" value="1.00">
-														<input type="hidden" name="currency_code" value="USD">
-														<input type="hidden" name="return" value=" ">
-														<input type="hidden" name="cancel_return" value=" ">
-														<input type="submit" name="submit" value="Add to cart" class="button">
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</figure>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 top_brand_left-1">
-						<div class="hover14 column">
-							<div class="agile_top_brand_left_grid">
-								<div class="agile_top_brand_left_grid_pos">
-									<img src={{asset('resources/assets/images/offer.png')}} alt=" " class="img-responsive">
-								</div>
-								<div class="agile_top_brand_left_grid1">
-									<figure>
-										<div class="snipcart-item block">
-											<div class="snipcart-thumb">
-												<a href="{{url('single')}}"><img title=" " alt=" " src="{{asset('resources/assets/images/典藏-台灣之美高山茶禮盒.png')}}"></a>		
-												<p>典藏-台灣之美高山茶禮盒</p>
-												<h4>$350 <span>$550</span></h4>
-											</div>
-											<div class="snipcart-details top_brand_home_details">
-												<form action="#" method="post">
-													<fieldset>
-														<input type="hidden" name="cmd" value="_cart">
-														<input type="hidden" name="add" value="1">
-														<input type="hidden" name="business" value=" ">
-														<input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-														<input type="hidden" name="amount" value="35.99">
-														<input type="hidden" name="discount_amount" value="1.00">
-														<input type="hidden" name="currency_code" value="USD">
-														<input type="hidden" name="return" value=" ">
-														<input type="hidden" name="cancel_return" value=" ">
-														<input type="submit" name="submit" value="Add to cart" class="button">
-													</fieldset>
-												</form>
-											</div>
-										</div>
-									</figure>
-								</div>
-							</div>
-						</div>
+					@endforeach
 					</div>
 						<div class="clearfix"> </div>
 				</div>

@@ -14,7 +14,7 @@
 <!-- checkout -->
 <div class="checkout">
 	<div class="container">
-		<h2>您的購物車總共有<span>三件商品</span></h2>
+		<h2>您的購物車總共有<span>1件商品</span></h2>
 		<div class="checkout-right">
 			<table class="timetable_sub">
 				<thead>
@@ -41,7 +41,7 @@
 					</td>
 					<td class="invert">高山茶150g</td>
 					
-					<td class="invert">$290.00</td>
+					<td class="invert">$250.00</td>
 					<td class="invert">
 						<div class="rem">
 							<div class="close1"> </div>
@@ -132,11 +132,11 @@
 			<div class="checkout-left-basket">
 				<h4>Continue to basket</h4>
 				<ul>
-					<li>高山茶150g <i>-</i> <span>$290.00</span></li>
-					<li>凍頂烏龍茶150g <i>-</i> <span>$250.00</span></li>
+					<li>高山茶150g <i>-</i> <span>$250.00</span></li>
+					{{-- <li>凍頂烏龍茶150g <i>-</i> <span>$250.00</span></li>
 					<li>梨山高山烏龍150g <i>-</i> <span>$150.00</span></li>
-					<li>Total Service Charges <i>-</i> <span>$15.00</span></li>
-					<li>總計 <i>-</i> <span>$84.00</span></li>
+					<li>Total Service Charges <i>-</i> <span>$15.00</span></li> --}}
+					<li>總計 <i>-</i> <span>$250.00</span></li>
 				</ul>
 			</div>
 			<div class="checkout-right-basket">

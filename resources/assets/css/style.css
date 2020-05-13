@@ -397,6 +397,7 @@ ul.multi-column-dropdown h6 {
 .top-brands h2, .newproducts-w3agile h3, .login h2, .register h2, .faq-w3agile h3, .brands h3 {
   text-align: center;
   color: #212121;
+  padding-top: .5em;
   padding-bottom: .5em;
   padding-left: .25em;
   position: relative;
@@ -451,7 +452,7 @@ ul.multi-column-dropdown h6 {
 .agile_top_brand_left_grid1 h4, .agileinfo_single_right_snipcart h4 {
   font-weight: 600;
   font-size: 1em;
-  color: #212121;
+  color: #7da435;
   text-align: center;
 }
 
@@ -459,6 +460,7 @@ ul.multi-column-dropdown h6 {
   font-weight: 300;
   text-decoration: line-through;
   padding-left: 1em;
+  color: #212121;
 }
 
 /*-- cart --*/
@@ -1039,7 +1041,7 @@ a.w3_agile_vimeo:hover {
 
 /*-- //footer --*/
 .newproducts-w3agile {
-  padding: 0 0 5em 0;
+  padding: 5em 0 5em 0;
   background: #f5f5f5;
 }
 

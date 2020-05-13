@@ -45,13 +45,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			{{-- <div class="w3l_offers">
 				<p>SALE UP TO 70% OFF. USE CODE "SALE70%" . <a href="products.html">SHOP NOW</a></p>
 			</div> --}}
-			<div class="product_list_header">  
+			{{-- <div class="product_list_header">  
 				<form action="#" method="post" class="last"> 
 					<input type="hidden" name="cmd" value="_cart">
 					<input type="hidden" name="display" value="1">
 					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
 				</form>  
-			</div>
+			</div> --}}
 			<div class="agile-login">
 				<ul>
 				<!-- Authentication Links -->
@@ -74,7 +74,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                                 </form>
                             </li>
                         </li>
-                    @endguest		
+					@endguest
+					<li><a href="{{url('/index')}}">前往商店</a></li>
+					<li><a href="{{url('/cart')}}">購物車
+							<span class="p-2 bg-blue-700 text-white rounded">
+								@if(session()->has('cart'))
+								{{session()->get('cart')->totalQty}}
+								@else
+								0
+								@endif
+							</span>
+						</a>
+					</li>
+					<li><a href="{{url('/orders')}}">訂單</a></li>		
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
@@ -120,7 +132,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<ul class="nav navbar-nav">
 									<li class="active"><a href="{{url('index')}}" class="act">首頁</a></li>	
 									<!-- Mega Menu -->
-									<li class="dropdown">
+									{{-- <li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Groceries<b class="caret"></b></a>
 										<ul class="dropdown-menu multi-column columns-3">
 											<div class="row">
@@ -210,10 +222,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							
 											</div>
 										</ul>
-									</li>
-									<li><a href="#">Gourmet</a></li>
-									<li><a href="#">Offers</a></li>
-									<li><a href="{{url('contact')}}">Contact</a></li>
+									</li> --}}
+									<li><a href="{{url('products')}}">所有產品</a></li>
+									<li><a href="{{url('contact')}}">聯絡我們</a></li>
 								</ul>
 							</div>
 							</nav>
@@ -256,7 +267,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-3 w3_footer_grid">
 					<h3>個人資訊</h3>
 					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('product')}}">逛逛去</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('products')}}">逛逛去</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('checkout')}}">結帳去</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('login')}}">登入</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('register')}}">註冊</a></li>

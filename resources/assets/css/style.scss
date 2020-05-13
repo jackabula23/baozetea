@@ -342,7 +342,8 @@ ul.multi-column-dropdown h6 {
 }
 .top-brands h2,.newproducts-w3agile h3,.login h2,.register h2,.faq-w3agile h3,.brands h3{
 	text-align:center;
-	color:#212121;
+    color:#212121;
+    padding-top: .5em;
     padding-bottom:.5em;
     padding-left: .25em;
 	position:relative;
@@ -389,13 +390,14 @@ ul.multi-column-dropdown h6 {
 .agile_top_brand_left_grid1 h4,.agileinfo_single_right_snipcart h4{
 	font-weight:600;
 	font-size:1em;
-	color:#212121;
+	color:#7da435;
 	text-align: center;
 }
 .agile_top_brand_left_grid1 h4 span,.agileinfo_single_right_snipcart h4 span{
 	font-weight:300;
 	text-decoration:line-through;
-	padding-left:1em;
+    padding-left:1em;
+    color: #212121;
 }
 /*-- cart --*/
 .product_list_header {
