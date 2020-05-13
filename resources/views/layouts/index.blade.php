@@ -257,18 +257,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="col-md-3 w3_footer_grid">
 					<h3>產品分類</h3>
 					<ul class="info"> 
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">Groceries</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">Household</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">Personal Care</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">Packaged Foods</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">Beverages</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">高山茶</a></li>
+						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="#">組合包</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>個人資訊</h3>
 					<ul class="info"> 
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('products')}}">逛逛去</a></li>
-						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('checkout')}}">結帳去</a></li>
+						{{-- <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{url('checkout')}}">結帳去</a></li> --}}
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('login')}}">登入</a></li>
 						<li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="{{route('register')}}">註冊</a></li>
 					</ul>

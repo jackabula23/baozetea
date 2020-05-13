@@ -21,7 +21,7 @@
 				<p class="top">1962年來自南投的一位老茶農，初中畢業就開始負擔家計，從種稻米、鳳梨、山藥到茶葉付出50年的歲月，為了發揚台灣茶成為精緻農業而默默付出，隨著時代進步，當大多數茶農選擇機械採收來提高產量及收入時，老茶農堅持惟有用手工採收來生產，品質才會好，也就是因為多了一份執著，讓他的茶喝起來特別的甘甜，2007年他建立茶苗圃，將自己親手培育之茶苗銷售給各地茶農，讓這些優良品種得以生生不息，2012年成立寶澤國際欲將50年來製茶經驗傳承下去。</p>
 				<div class="about-w3agilerow">
 					<div class="col-md-4 about-w3imgs">
-						<img src="{{asset('resources/assets/images/p3.jpg')}}" alt="" class="img-responsive zoom-img"/>
+						<img src="{{asset('resources/assets/images/pickingtea.png')}}" alt="" class="img-responsive zoom-img"/>
 					</div>
 					<div class="col-md-4 about-w3imgs">
 						<img src="{{asset('resources/assets/images/p4.jpg')}}" alt=""  class="img-responsive zoom-img"/>

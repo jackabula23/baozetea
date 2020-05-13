@@ -86,26 +86,10 @@
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img title=" " alt=" " src="{{$product->img}}"></a>		
+											<a href="{{url('single')}}"><img title=" " alt=" " src="{{$product->img}}"></a>		
 											<p>{{$product->title}}</p>
 											<h4>${{$product->price}} <span>${{$product->price}}</span></h4>
-											<a href="{{url('/add-to-cart')}}/{{$product->id}}" class="w-full block bg-blue-500 text-white py-4 text-center">立刻購買</a>
-										</div>
-										<div class="snipcart-details top_brand_home_details">
-											<form action="#" method="post">
-												<fieldset>
-													<input type="hidden" name="cmd" value="_cart">
-													<input type="hidden" name="add" value="1">
-													<input type="hidden" name="business" value=" ">
-													<input type="hidden" name="item_name" value="Fortune Sunflower Oil">
-													<input type="hidden" name="amount" value="35.99">
-													<input type="hidden" name="discount_amount" value="1.00">
-													<input type="hidden" name="currency_code" value="USD">
-													<input type="hidden" name="return" value=" ">
-													<input type="hidden" name="cancel_return" value=" ">
-													<input type="submit" name="submit" value="Add to cart" class="button">
-												</fieldset>
-											</form>
+											<a href="{{url('/add-to-cart')}}/{{$product->id}}" class="addtocart">立刻購買</a>
 										</div>
 									</div>
 								</figure>
@@ -116,7 +100,7 @@
 				@endforeach
 					<div class="clearfix"> </div>
 			</div>
-			<nav class="numbering">
+			{{-- <nav class="numbering">
 				<ul class="pagination paging">
 					<li>
 						<a href="#" aria-label="Previous">
@@ -134,7 +118,7 @@
 						</a>
 					</li>
 				</ul>
-			</nav>
+			</nav> --}}
 		</div>
 		<div class="clearfix"> </div>
 	</div>
