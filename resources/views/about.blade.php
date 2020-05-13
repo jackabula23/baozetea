@@ -24,10 +24,10 @@
 						<img src="{{asset('resources/assets/images/pickingtea.png')}}" alt="" class="img-responsive zoom-img"/>
 					</div>
 					<div class="col-md-4 about-w3imgs">
-						<img src="{{asset('resources/assets/images/p4.jpg')}}" alt=""  class="img-responsive zoom-img"/>
+						<img src="{{asset('resources/assets/images/tea.png')}}" alt=""  class="img-responsive zoom-img"/>
 					</div>
 					<div class="col-md-4 about-w3imgs">
-						<img src="{{asset('resources/assets/images/p3.jpg')}}" alt=""  class="img-responsive zoom-img"/>
+						<img src="{{asset('resources/assets/images/drytea.png')}}" alt=""  class="img-responsive zoom-img"/>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
